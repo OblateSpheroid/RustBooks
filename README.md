@@ -1,21 +1,28 @@
 [![Build Status](https://travis-ci.org/sger/RustBooks.svg?branch=master)](https://travis-ci.org/sger/RustBooks)
 
-Rust Books
-====
+# Rust Books
+
 * [Books](#books)
- * [Starter Books](#starter-books)
- * [Advanced Books](#advanced-books)
+  * [Starter Books](#starter-books)
+  * [Advanced Books](#advanced-books)
 * [Resources](#resources)
 
-**Books**
-====
+# Books
 
-**Starter Books**
-----
+## Starter Books
 
-### [The Rust Programming Language](https://doc.rust-lang.org/book/) *Free*
+### [The Rust Programming Language](https://doc.rust-lang.org/book/) *Free* or as [Print edition](https://www.nostarch.com/Rust)
 
-Welcome! This book will teach you about the Rust Programming Language. Rust is a systems programming language focused on three goals: safety, speed, and concurrency. It maintains these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t good at: embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems. It improves on current languages targeting this space by having a number of compile-time safety checks that produce no runtime overhead, while eliminating all data races. Rust also aims to achieve ‘zero-cost abstractions’ even though some of these abstractions feel like those of a high-level language. Even then, Rust still allows precise control like a low-level language would.
+<img src="https://www.nostarch.com/sites/default/files/styles/uc_product/public/RustProgrammingLanguage_cover_0.png" width="120px"/>
+
+This book will teach you about the Rust Programming Language. Rust is a systems programming language focused on three goals: safety, speed, and concurrency. It maintains these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t good at: embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems. It improves on current languages targeting this space by having a number of compile-time safety checks that produce no runtime overhead, while eliminating all data races. Rust also aims to achieve ‘zero-cost abstractions’ even though some of these abstractions feel like those of a high-level language. Even then, Rust still allows precise control like a low-level language would.
+
+### [The Rust Reference](https://doc.rust-lang.org/reference/) *Free*
+
+This document is the primary reference for the Rust programming language. It provides three kinds of material:
+* Chapters that informally describe each language construct and their use.
+* Chapters that informally describe the memory model, concurrency model, runtime services, linkage model and debugging facilities.
+* Appendix chapters providing rationale and references to languages that influenced the design.
 
 ### [Welcome to Rust-101](https://www.ralfj.de/projects/rust-101/main.html) *Free*
 
@@ -27,6 +34,28 @@ I will assume some familiarity with programming, and hence not explain the basic
 
 Rust by Example (RBE) is a collection of runnable examples that illustrate various Rust concepts and standard libraries. To get even more out of these examples, don't forget to [install Rust locally](http://www.rust-lang.org/install.html) and check out the [official docs](http://doc.rust-lang.org/std/). Additionally for the curious, you can also [check out the source code for this site](https://github.com/rust-lang/rust-by-example).
 
+### [Rust Programming Step-by-Step](https://carlomilanesi.gitbooks.io/rust-programming-step-by-step/content/) *Free*
+
+This book, that is still being written, allows a beginner programmer to learn how to program in the Rust programming language in a step-wise and easy way. Only a small knowledge of programming is required, preferably in C or C++ language. Let's say that to understand this text it is enough to know what is an integer and what a floating-point number, and to distinguish identifiers from strings literals.
+
+### [A Gentle Introduction To Rust](https://github.com/stevedonovan/gentle-intro) *Free*
+
+The aim of this tutorial is to take you to a place where you can read and write enough Rust to fully appreciate the excellent learning resources available online, in particular [The Book](https://doc.rust-lang.org/stable/book/). It's an opportunity to try before you buy, and get enough feeling for the power of the language to want to go deeper.
+
+### [24 Days of Rust](https://zsiciarz.github.io/24daysofrust/) *Free*
+
+Inspired by Ollie Charles and his excellent 24 days of Hackage series, this is an introduction to a number of Rust language features, useful libraries and cool projects built with Rust.
+
+### [Learning Rust](https://dumindu.gitbooks.io/learning-rust/content/) *Free*
+
+I am a Web Developer and just learning Rust. In here I tried to summarize what I learned and time to time I'll update this book. Hope this will be helpful for newcomers like me :)
+
+### [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html) *Free*
+
+Note: this is a work in progress.
+
+This book is an attempt to distil the Rust community's collective knowledge of Rust macros. 
+
 ### [Why Rust?](http://www.oreilly.com/programming/free/why-rust.csp)
 
 <img src="http://covers.oreillystatic.com/images/0636920040446/cat.gif" width="120px"/>
@@ -35,26 +64,30 @@ While systems programming languages have greatly evolved since the introduction 
 
 ### [Learning Rust](https://www.packtpub.com/application-development/learning-rust)
 
-<img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/5114.jpg" width="120px"/>
+<img src="https://www.packtpub.com/sites/default/files/B05114.png" width="120px"/>
 
 Rust is a highly concurrent and high performance language that focuses on safety and speed, memory management, and writing clean code. It also guarantees thread safety, and its aim is to improve the performance of existing applications. It has been backed by Mozilla to solve the critical problem of concurrency.
 
-###[Rust Cookbook](https://www.packtpub.com/application-development/rust-cookbook) 
+### [Rust Cookbook](https://www.packtpub.com/application-development/rust-cookbook)
 
-<img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9781785880254.png" width="120px"/>
+<img src="https://images-na.ssl-images-amazon.com/images/I/41d88pwEATL._SX404_BO1,204,203,200_.jpg" width="120px"/>
 
-This book will help you understand the core concepts of the Rust language, enabling you to develop efficient and high-performance applications by incorporating features such as zero cost abstraction and better memory management.Delve into advanced-level concepts such as error handling, macros, crates, and parallelism in Rust. Toward the end of the book, learn how to create HTTP servers and web services, building a strong foundational knowledge in server-side programming and enabling to deliver solutions to build high-performance and safer production-level web applications and services using Rust.
+This book comes with a lot of application-specific recipes to kick-start your development of real-world high-performance applications with the Rust programming language and integrating Rust units into your existing applications. In this book, you will find some 80 practical recipes written in Rust that will allow you to use the code samples right away in your existing applications. These recipes have been tested with stable rust compiler versions of 1.14.0 and above.
 
-###[Rust Essentials - Second Edition](https://www.packtpub.com/application-development/rust-essentials-second-edition) 
+This book will help you understand the core concepts of the Rust language, enabling you to develop efficient and high-performance applications by incorporating features such as zero cost abstraction and better memory management.
 
-<img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08304%20_cover.png" width="120px"/>
+We'll delve into advanced-level concepts such as error handling, macros, crates, and parallelism in Rust. Toward the end of the book, you will learn how to create HTTP servers and web services, building a strong foundational knowledge in server-side programming and enabling you to deliver solutions to build high-performance and safer production-level web applications and services using Rust.
 
-This book starts off with an argumentation of Rust's unique place in today's landscape of programming languages. Install Rust and learn how to work with its package manager Cargo. The various concepts are introduced step by step: variables, types, functions, and control structures to lay the groundwork. Then explore more structured data such as strings, arrays, and enums, and see how pattern matching works. Throughout all this, this book lays emphasis on the unique ways of reasoning that the Rust compiler uses to produce safe code. Next look at Rust's specific way of error handling, and the overall importance of traits in Rust code. The pillar of memory safety is treated in depth as we explore the various pointer kinds. Next, see how macros can simplify code generation, and how to compose bigger projects with modules and crates. Finally, discover how we can write safe concurrent code in Rust and interface with C programs, get a view of the Rust ecosystem, and explore the use of the standard library.
+### [Beginning Rust](https://www.amazon.com/Beginning-Rust-Professional-Carlo-Milanesi/dp/1484234677)
 
-**Advanced Books**
----
+<img src="https://images-na.ssl-images-amazon.com/images/I/41yxDbLMb4L._SX349_BO1,204,203,200_.jpg" width="120px"/>
 
-### [The Rustonomicon](https://doc.rust-lang.org/nightly/nomicon/)
+*Beginning Rust* starts with the basics of Rust, including how to name objects, control execution flow, and handle primitive types. You’ll see how to do arithmetic, allocate memory, use iterators, and handle input/output. Once you have mastered these core skills, you’ll work on handling errors and using the object-oriented features of Rust to build robust Rust applications in no time.
+
+
+## Advanced Books
+
+### [The Rustonomicon](https://doc.rust-lang.org/nightly/nomicon/) *Free*
 
 This book digs into all the awful details that are necessary to understand in order to write correct Unsafe Rust programs. Due to the nature of this problem, it may lead to unleashing untold horrors that shatter your psyche into a billion infinitesimal fragments of despair.
 
@@ -62,7 +95,7 @@ Should you wish a long and happy career of writing Rust programs, you should tur
 
 ### [Rust Essentials](https://www.packtpub.com/application-development/rust-essentials)
 
-<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/5769OS_Rust%20Essentials.jpg" width="120px"/>
+<img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08304%20_cover.png" width="120px"/>
 
 Starting by comparing Rust with other programming languages, this book will show you where and how to use Rust. It will discuss primitive types along with variables and their scope, binding and casting, simple functions, and ways to control execution flow in a program.
 
@@ -72,45 +105,57 @@ By the end of this book, you will have successfully migrated to using Rust and w
 
 ### [Programming Rust](http://shop.oreilly.com/product/0636920040385.do)
 
-<img src="http://akamaicovers.oreilly.com/images/0636920040385/rc_cat.gif" width="120px"/>
+<img src="https://covers.oreillystatic.com/images/0636920040385/lrg.jpg" width="120px"/>
 
 This practical book introduces systems programmers to Rust, the new and cutting-edge language. You’ll learn how Rust offers the rare and valuable combination of statically verified memory safety and low-level control—imagine C++, but without dangling pointers, null pointer dereferences, leaks, or buffer overruns.
 
 ### [Mastering Rust](https://www.packtpub.com/application-development/mastering-rust)
 
-<img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/New-5023.png" width="120px"/>
+<img src="https://images-na.ssl-images-amazon.com/images/I/51TGdQXiWDL._SX407_BO1,204,203,200_.jpg" width="120px"/>
 
 If concurrent programs are giving you sleepless nights, Rust is your go-to language. Filled with real-world examples and explanations, this book will show you how you can build scalable and reliable programs for your organization.
 
 We’ll teach you big level concepts that make Rust a great language. Improving performance, using generics, building macros, and working with threads are just some of the topics we’ll cover. We’ll talk about the official toolsets and ways to discover more. The book contains a mix of theory interspersed with hands-on tasks so you acquire the skills as well as the knowledge. Since programming cannot be learned by just reading, we provide exercises (and solutions) to hammer the concepts in.
 
-### [The Rust Programming Language](https://www.nostarch.com/Rust)
+### [Rust in Action](https://www.manning.com/books/rust-in-action) 
 
-<img src="https://www.nostarch.com/sites/default/files/styles/uc_product/public/RustProgrammingLanguage_cover_0.png" width="120px"/>
+<img src="https://images.manning.com/720/960/resize/book/4/099dd58-033f-4bec-b296-a82b49b20f3e/McNamara-Rust-MEAP-HI.png" width="120px"/>
 
-The Rust Programming Language is the official book on Rust; a community-developed, systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. Rust’s memory safety guarantees, enforced at compile time, safeguard your programs against the many problems that pervade other systems languages. Rust offers the control and performance of a low-level language with the helpful abstractions of a high level one, and does this all without having a garbage collector. These characteristics make Rust useful for embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems.
+Rust in Action introduces the Rust programming language by exploring numerous systems programming concepts and techniques.You'll be learning Rust by delving into how computers work under the hood. You'll find yourself playing with persistent storage, memory, networking and even tinkering with CPU instructions. The book takes you through using Rust to extend other applications and teaches you tricks to write blindingly fast code. You'll also discover parallel and concurrent programming. Filled to the brim with real-life use-cases and scenarios, you'll go beyond the Rust syntax and see what Rust has to offer in real-world use cases.
 
-###[Mastering Rust](https://www.packtpub.com/application-development/mastering-rust) 
 
-<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B05023.png" width="120px"/>
+# Resources
 
-This book will teach intermediate to advanced level concepts that make Rust a great language. Improving performance, using generics, building macros, and working with threads are just some of the topics this book will cover.The book contains a mix of theory interspersed with hands-on tasks, so readers acquire the skills as well as the knowledge. Since programming cannot be learned by just reading, this book provides exercises (and solutions) to hammer the concepts in.
+[**Rust Playground**](https://play.rust-lang.org/): Run Rust in a browser
 
-**Resources**
-====
+[**The Grammar**](https://doc.rust-lang.org/grammar.html): This document is the primary reference for the Rust programming language grammar
 
-### [Learn Rust with examples](https://github.com/rust-lang/rust-by-example)
+[**Rust Learning**](https://github.com/ctjhoa/rust-learning): longer list of Rust resourses
 
-### [The Rust Programming Language](https://www.youtube.com/watch?v=d1uraoHM8Gg)
+[**Rustlings**](https://github.com/carols10cents/rustlings): Small exercises to get you used to reading and writing Rust code. Includes practice reading and responding to compiler messages!
 
-### [Are We Learning Yet?](http://www.arewelearningyet.com/): List of resources for machine learning in Rust
+[**Rust Tutorials and Courses**](https://hackr.io/tutorials/learn-rust): Learn Rust from the best online Rust tutorials submitted and voted by the programming community.
 
-### [Are We Web Yet?](http://www.arewewebyet.org/): List of resources for web development in Rust
+[**Learn Rust with Examples**](https://github.com/rust-lang/rust-by-example): github site for *Rust by Example*
 
-Contributing
-====
+[**The Rust Programming Language**](https://www.youtube.com/watch?v=d1uraoHM8Gg): Hour-long YouTube video intro by Alex Crichton
+
+[**RustConf 2016**](https://www.youtube.com/playlist?list=PLE7tQUdRKcybLShxegjn0xyTTDJeYwEkI): YouTube playlist of 9 talks from RustConf 2016
+
+[**RustCamp 2015**](https://www.youtube.com/playlist?list=PLE7tQUdRKcybdIw61JpCoo89i4pWU5f_t): YouTube playlist of 10 talks from RustCamp 2015
+
+[**Are We Learning Yet?**](http://www.arewelearningyet.com/): List of resources for machine learning in Rust
+
+[**Are We Web Yet?**](http://www.arewewebyet.org/): List of resources for web development in Rust
+
+[**Rust Programming: Creating a Phoronix Reader Application**](https://mmstick.gitbooks.io/rust-programming-phoronix-reader-how-to/content/): step-by-step instructions regarding how to write a Phoronix Reader CLI application in Rust with colored output, but will evolve to also include a GTK3 GUI.
+
+[**The Rusty Web**](https://davidmcneil.gitbooks.io/the-rusty-web/content/): This guide illustrates using the Rust programming language to target the web. The basic design pattern this project explores uses Rust to implement CPU bound portions of an app while using existing web technologies to handle user facing, I/O bound pieces.
+
+# Contributing
+
 Your contributions are always welcome, just follow [the rules](https://github.com/sger/RustBooks/blob/master/CONTRIBUTING.md)!
 
-License
-====
+# License
+
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
