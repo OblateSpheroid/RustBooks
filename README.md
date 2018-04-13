@@ -78,12 +78,27 @@ This book will help you understand the core concepts of the Rust language, enabl
 
 We'll delve into advanced-level concepts such as error handling, macros, crates, and parallelism in Rust. Toward the end of the book, you will learn how to create HTTP servers and web services, building a strong foundational knowledge in server-side programming and enabling you to deliver solutions to build high-performance and safer production-level web applications and services using Rust.
 
-### [Beginning Rust](https://www.amazon.com/Beginning-Rust-Professional-Carlo-Milanesi/dp/1484234677)
+### [Beginning Rust: From Novice to Professional](https://www.amazon.com/Beginning-Rust-Professional-Carlo-Milanesi/dp/1484234677)
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/41yxDbLMb4L._SX349_BO1,204,203,200_.jpg" width="120px"/>
 
 *Beginning Rust* starts with the basics of Rust, including how to name objects, control execution flow, and handle primitive types. You’ll see how to do arithmetic, allocate memory, use iterators, and handle input/output. Once you have mastered these core skills, you’ll work on handling errors and using the object-oriented features of Rust to build robust Rust applications in no time.
 
+### [Rust Programming By Example](https://www.packtpub.com/application-development/rust-programming-example)
+
+<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08821_cover.png" width="120px"/>
+
+Beginning with an introduction to Rust, you'll learn the basic aspects such as its syntax, data types, functions, generics, control flows, and more. After this, you'll jump straight into building your first project, a Tetris game. Next you'll build a graphical music player and work with fast, reliable networking software using Tokio, the scalable and productive asynchronous IO Rust library.
+
+Over the course of this book, you'll explore various features of Rust Programming including its SDL features, event loop, File I/O, and the famous GTK+ widget toolkit. Through these projects, you'll see how well Rust performs in terms of concurrency-including parallelism, reliability, improved performance, generics, macros, and thread safety. We'll also cover some asynchronous and reactive programming aspects of Rust.
+
+### [Rust Standard Library Cookbook](https://www.packtpub.com/application-development/rust-standard-library-cookbook)
+
+<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09027.png" width="120px"/>
+
+This book will take you through varied recipes to teach you how to leverage the Standard library to implement efficient solutions.
+
+The book begins with a brief look at the basic modules of the Standard library and collections. From here, the recipes will cover packages that support file/directory handling and interaction through parsing. You will learn about packages related to advanced data structures, error handling, and networking. You will also learn to work with futures and experimental nightly features. The book also covers the most relevant external crates in Rust.
 
 ## Advanced Books
 
@@ -116,6 +131,14 @@ This practical book introduces systems programmers to Rust, the new and cutting-
 If concurrent programs are giving you sleepless nights, Rust is your go-to language. Filled with real-world examples and explanations, this book will show you how you can build scalable and reliable programs for your organization.
 
 We’ll teach you big level concepts that make Rust a great language. Improving performance, using generics, building macros, and working with threads are just some of the topics we’ll cover. We’ll talk about the official toolsets and ways to discover more. The book contains a mix of theory interspersed with hands-on tasks so you acquire the skills as well as the knowledge. Since programming cannot be learned by just reading, we provide exercises (and solutions) to hammer the concepts in.
+
+### [Rust High Performance](https://www.packtpub.com/application-development/rust-high-performance)
+
+<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08822_cover.png" width="120px"/>
+
+At times, it is difficult to get the best performance out of Rust. This book teaches you to optimize the speed of your Rust code to the level of languages such as C/C++. You'll understand and fix common pitfalls, learn how to improve your productivity by using metaprogramming, and speed up your code by concurrently executing parts of it safely and easily. You will master the features of the language which will make you stand out and use them to really improve the efficiency of your algorithms
+
+The book begins with a gentle introduction to help you identify bottlenecks when programming in Rust. We highlight common performance pitfalls, along with strategies to detect and resolve these issues early. We move on to mastering Rust's type system, which will enable us to create impressive optimizations in both performance and safety at compile time. You will then learn how to effectively manage memory in Rust, mastering the borrow checker. We move on to measuring performance and you will see how this affects the way you write code. Moving ahead, you will perform metaprogramming in Rust to boost the performance of your code and your productivity. You will finally learn parallel programming in Rust, which enables efficient and faster execution by using multithreading and asynchronous programming.
 
 ### [Rust in Action](https://www.manning.com/books/rust-in-action) 
 
