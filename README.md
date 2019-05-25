@@ -64,7 +64,7 @@ While systems programming languages have greatly evolved since the introduction 
 
 ### [Learning Rust](https://www.packtpub.com/application-development/learning-rust)
 
-<img src="https://www.packtpub.com/sites/default/files/B05114.png" width="120px"/>
+<img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/0/b05114.png" width="120px"/>
 
 Rust is a highly concurrent and high performance language that focuses on safety and speed, memory management, and writing clean code. It also guarantees thread safety, and its aim is to improve the performance of existing applications. It has been backed by Mozilla to solve the critical problem of concurrency.
 
@@ -86,7 +86,7 @@ We'll delve into advanced-level concepts such as error handling, macros, crates,
 
 ### [Rust Programming By Example](https://www.packtpub.com/application-development/rust-programming-example)
 
-<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08821_cover.png" width="120px"/>
+<img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/0/b08821_cover.png" width="120px"/>
 
 Beginning with an introduction to Rust, you'll learn the basic aspects such as its syntax, data types, functions, generics, control flows, and more. After this, you'll jump straight into building your first project, a Tetris game. Next you'll build a graphical music player and work with fast, reliable networking software using Tokio, the scalable and productive asynchronous IO Rust library.
 
@@ -94,7 +94,7 @@ Over the course of this book, you'll explore various features of Rust Programmin
 
 ### [Rust Standard Library Cookbook](https://www.packtpub.com/application-development/rust-standard-library-cookbook)
 
-<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09027.png" width="120px"/>
+<img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/0/b09027.png" width="120px"/>
 
 This book will take you through varied recipes to teach you how to leverage the Standard library to implement efficient solutions.
 
@@ -110,7 +110,7 @@ Should you wish a long and happy career of writing Rust programs, you should tur
 
 ### [Rust Essentials](https://www.packtpub.com/application-development/rust-essentials)
 
-<img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08304%20_cover.png" width="120px"/>
+<img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/5/7/5769os_rust20essentials.jpg" width="120px"/>
 
 Starting by comparing Rust with other programming languages, this book will show you where and how to use Rust. It will discuss primitive types along with variables and their scope, binding and casting, simple functions, and ways to control execution flow in a program.
 
@@ -133,8 +133,8 @@ If concurrent programs are giving you sleepless nights, Rust is your go-to langu
 We’ll teach you big level concepts that make Rust a great language. Improving performance, using generics, building macros, and working with threads are just some of the topics we’ll cover. We’ll talk about the official toolsets and ways to discover more. The book contains a mix of theory interspersed with hands-on tasks so you acquire the skills as well as the knowledge. Since programming cannot be learned by just reading, we provide exercises (and solutions) to hammer the concepts in.
 
 ### [Rust High Performance](https://www.packtpub.com/application-development/rust-high-performance)
-
-<img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08822_cover.png" width="120px"/>
+https://learning-rust.github.io/
+<img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/b/0/b08822.png" width="120px"/>
 
 At times, it is difficult to get the best performance out of Rust. This book teaches you to optimize the speed of your Rust code to the level of languages such as C/C++. You'll understand and fix common pitfalls, learn how to improve your productivity by using metaprogramming, and speed up your code by concurrently executing parts of it safely and easily. You will master the features of the language which will make you stand out and use them to really improve the efficiency of your algorithms
 
@@ -148,6 +148,8 @@ Rust in Action introduces the Rust programming language by exploring numerous sy
 
 
 # Resources
+
+[**Learning Rust**](https://learning-rust.github.io/): Rust Programming Language Tutorials
 
 [**Rust Playground**](https://play.rust-lang.org/): Run Rust in a browser
 
